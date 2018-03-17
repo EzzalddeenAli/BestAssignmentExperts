@@ -15,8 +15,9 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => env('MAILGUN_SECRET'),
+        'domain' => 'bestassignmentexperts.com',
+        'secret' => 'key-82fa75bf1ae6d3c56051f9cfcd46051e',
+
     ],
 
     'ses' => [

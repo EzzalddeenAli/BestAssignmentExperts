@@ -45,9 +45,17 @@ return [
 
         'local' => [
             'driver' => 'local',
-            'root' => storage_path('app'),
+            'root' => Storage_path('app'),
         ],
 
+    // by bharti......
+    'plagi_uploads' => [
+        'driver' => 'local',
+        'root'   => public_path() . '/plagi_uploads',
+    ],
+    //...........
+
+   
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
@@ -63,5 +71,4 @@ return [
         ],
 
     ],
-
-];
+ ];
